@@ -88,7 +88,7 @@ Create the receipt PDF
 
     ${receipt_and_image}=    Create List
     ...    ${OUTPUT_DIR}${/}receipt_pdfs${/}order_no_${order_row}[Order number].pdf
-    ...    ${OUTPUT_DIR}${/}preview_images${/}order_${order_row}[Order number]_preview.png:x=0,y=0
+    ...    ${OUTPUT_DIR}${/}preview_images${/}order_${order_row}[Order number]_preview.png
 
     Add Files To Pdf
     ...    ${receipt_and_image}
